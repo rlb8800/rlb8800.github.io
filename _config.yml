@@ -1,0 +1,40 @@
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Site settings
+title: "Team Lightweight"
+description: > # this means to ignore newlines until "email:"
+   A Lightweight Release Prediction Tool
+synposis: An extremely elegant, essentially single screen, web-based application that enables development teams to estimate team size and project duration necessary to complete a project. It will be usable with little training. Modest server math will be required, though most of the action will be in the browser. It will have a feedback component, so that estimates rely on increasingly crowd-sourced information and improve over time. 
+
+email: rlb8800@rit.edu
+#blog logo
+logo: "/tech-predictions/assets/images/cog.jpg"
+logo2: "/tech-predictions/assets/images/cog_tr.png"
+# blog cover
+cover: "/tech-predictions/assets/images/owl.jpg"
+covercredits: "http://bryanmmathers.com"
+
+url: "http://rlb8800.github.io" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle:
+
+# social icons and sharing options
+social:
+  - icon:   github
+    url:    https://github.com/Contrafabulists/website
+    desc:   Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: envelope
+    url:  mailto:info@contrafabulists.com
+    desc: Email
+    share_url:
+    share_title:
+    share_link:

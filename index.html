@@ -1,0 +1,23 @@
+---
+layout: default
+title: Google Sheets to Github Website - Links
+---
+
+<!-- Pulls from _data links -->
+{% assign links = site.data.links %}
+{% assign links = links | sort:"Name" %}
+
+<h3>Team Members</h3>
+<table width="100%">
+{% for link in links %}
+  <tr>
+    <td><strong>{{ link.name }}</strong></td>
+    <td width="50%">{{ link.role }}</td>
+  </tr>
+{% endfor %}
+</table>
+<p align="center">
+  <a href="https://github.com/rlb8800/rlb8800.github.io">Github Repo</a> -
+  <a href="https://docs.google.com/spreadsheets/u/4/d/e/2PACX-1vScoeyBWTlj2rs8omSsHTMS1Qi8ovCE_TLVfpw_46T5t1NTxTXaG1kXaUrhYKnvZC9bXBSrqkrkHcmz/pubhtml">Time Tracking</a> -
+  <a href="https://docs.google.com/document/d/e/2PACX-1vQOBNhuMaqRngpUhgDrDtz9kVrcCSaHnhoiyWCOZSen970s9l4Ro7XUNlniY5X5kaXwyUKr9eMf2Uhw/pub">Team Artifacts</a>
+</p>

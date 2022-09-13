@@ -1,0 +1,10 @@
+- name: Ryan Borger
+  role: 'Website Manager'
+- name: Matt Schmitt
+  role: 'Devops Lead'
+- name: Parth Paliwal 
+  role: 'Project Manager / Scrum Master'
+- name: Steven Hulbert
+  role: 'Sponsor Communication Lead / Frontend Tech Lead'
+- name: Conor Quinn
+  role: 'Backend Tech Lead'
